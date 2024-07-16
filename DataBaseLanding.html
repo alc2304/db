@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service Providers Database</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .header {
+            padding: 60px;
+            text-align: center;
+            background: white;
+            color: #800020;
+            font-size: 30px;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .tab-button {
+            background-color: #800020;
+            border: none;
+            color: #EBD99b;
+            padding: 14px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 0 5px;
+        }
+        .tab-button:hover {
+            background-color: #713544;
+        }
+        .tab-content {
+            display: none;
+            padding: 20px;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        .service-provider {
+            border: 3px solid #800020;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #f0e7e9;
+        }
+        .service-provider h4 {
+            margin-top: 0;
+        }
+        .service-provider p {
+            margin: 5px 0;
+        }
+        .service-provider a {
+            color: #bcaa69;
+            text-decoration: none;
+        }
+        .service-provider a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="/Users/analuisacervantes/Desktop/Screen Shot 2024-07-08 at 10.21.10 AM.png" alt="Logo Consulado">
+
+        <h1>Service Providers Database</h1>
+    </div>
+
+    <div class="tabs">
+        <button class="tab-button" onclick="openTab(event, 'Disclaimer')">Introduction</button>
+        <button class="tab-button" onclick="openTab(event, 'Tab1')">Trucking and Logistics</button>
+        <button class="tab-button" onclick="openTab(event, 'Tab2')">Warehouse Distribution</button>
+        <button class="tab-button" onclick="openTab(event, 'Tab3')">Business Consulants</button>
+        <button class="tab-button" onclick="openTab(event, 'Tab4')">Attorneys</button>
+        <button class="tab-button" onclick="openTab(event, 'Tab5')">Banks and Investment Services</button>
+        <button class="tab-button" onclick="openTab(event, 'Tab6')">Tax Consulants & Accountants</button>
+    </div>
+
+    <div id="Disclaimer" class="tab-content">
+        <h1>Introduction</h1>
+        <h2>Disclaimer</h2>
+        <p>
+            The Consulate General of Mexico in New York assumes no responsibility or liability for any service providers listed in this database. 
+            The information contained in this database does not constitute recommendations or endorsements by the consulate. Instead, it includes service providers who have expressed 
+            interest in being added to the database, with additional service providers listed via the Association of Food Industries 2024 Annual Report.
+        </p>
+    </div>
+    
+    <div id="Tab1" class="tab-content">
+        <h2>Trucking and Logistics</h2>
+        <div class="service-provider">
+            <h4>NH Trade & Services</h4>
+            <p><strong>Location:</strong> Laredo & CDMX</p>
+            <p><strong>Email:</strong> <a href="mailto:contacto@nhtrade.com.mx">contacto@nhtrade.com.mx</a></p>
+            <p><strong>Website:</strong> <a href="http://www.nhtrade.com.mx" target="_blank" rel="noopener noreferrer">www.nhtrade.com.mx</a></p>
+    </div>
+
+    <div class="service-provider" style="margin-top: 20px;">
+
+        <h4>OK Kosher</h4>
+        <p><strong>Location:</strong> New York & Regional Offices</p>
+        <p><strong>Email:</strong> <a href="mailto:rafic@ok.org">rafic@ok.org</a></p>
+        <p><strong>Website:</strong> <a href="www.ok.org" target="_blank" rel="noopener noreferrer">www.ok.org</a></p>
+</div>
+    <h4>Agri-Food Related Service Providers</h4>
+    <p>
+        <ul>
+            <li>Alba Wheels UP</li>
+            <li>AllWays Forwarding Int'l., Inc</li>
+            <li>Brauner Interantioanl Corporation</li>
+            <li>Freighters LLC</li>
+            <li>JAF Gloal Logistics</li>
+            <li>JW Hampton Jr. & CO., Inc</li>
+            <li>Laufer Group International</li>
+            <li>Romark Logistics</li>
+            <li>Sunteck Transportation Group</li>
+          </ul>
+    </p>
+    </div>
+    
+    <div id="Tab2" class="tab-content">
+        <h2>Warehouse Distribution</h2>
+        <h4>Agri-Food Related Service Providers</h4>
+        <p>
+            <ul>
+                <li>Accem Warehouse</li>
+                <li>East Coast Warehouse & Distribution Corp</li>
+                <li>Federation Distribution Services</li>
+                <li>McLane Gloabl</li>
+                <li>Port Jersey Logistics</li>
+              </ul>
+        </p>
+    </div>
+    
+    <div id="Tab3" class="tab-content">
+        <h2>Buisness Consulants </h2>
+        <div class="service-provider">
+            <h4>ALTIOS International</h4>
+            <p><strong>Location:</strong> Mexico City, Mexico</p>
+            <p><strong>Email:</strong> <a href="mailto:info@altios.com">info@altios.com</a></p>
+            <p><strong>Website:</strong> <a href="http://www.altios.com" target="_blank" rel="noopener noreferrer">www.altios.com</a></p>
+    </div>
+
+    <div class="service-provider" style="margin-top: 20px;">
+
+        <h4>Balanco Services</h4>
+        <p><strong>Location:</strong> Monterrey, NL</p>
+        <p><strong>Email:</strong> <a href="mailto:clm@balancoservices.com">clm@balancoservices.com</a></p>
+        <p><strong>Website:</strong> <a href="www.balancoservices.com" target="_blank" rel="noopener noreferrer">www.balancoservices.com</a></p>
+</div>
+
+    <div class="service-provider" style="margin-top: 20px;">
+        <h4>USMFS</h4>
+        <p><strong>Location</strong></p>
+        <p><strong>Email:</strong></p>
+        <p><strong>Website:</strong></p>
+    </div>
+
+    <h4>Agri-Food Related Service Providers</h4>
+    <p>
+        <ul>
+            <li>FFF Associates</li>
+            <li>Kompass North America</li>
+            <li>Safe Food En Route, LLC</li>
+            <li>Qualtiy Services International</li>
+          </ul>
+    </p>
+
+    </div>
+
+    <div id="Tab4" class="tab-content">
+        <h2>Attorneys</h2>
+        <h4>Agri-Food Related Service Providers</h4>
+        <p>
+            <ul>
+                <li>Benjamin L. England & Associates, LLC</li>
+                <li>DeLashment & Marchand, PC</li>
+                <li>FisherBroyles LLP</li>
+                <li>OFW Law</li>
+                <li>Sandler, Travis & Rosenberg, P.A.</li>
+                <li>Scarinci & Hollenbeck</li>
+              </ul>
+        </p>
+    </div>
+
+    <div id="Tab5" class="tab-content">
+        <h2>Banks and Investment Services</h2>
+        <p>This is the content for Banks and Investment Services.</p>
+        <div class="service-provider" style="margin-top: 20px;">
+
+            <h4>OLG Capital</h4>
+            <p><strong>Location:</strong> Houston, TX</p>
+            <p><strong>Point Person:</strong> Arturo Jacques R.</p>
+            <p><strong>Email:</strong> <a href="mailto:info@olgcapitalgroup.com">info@olgcapitalgroup.com</a></p>
+            <p><strong>Website:</strong> <a href="www.olgcapitalgroup.com" target="_blank" rel="noopener noreferrer">www.olgcapitalgroup.com</a></p>
+    </div>
+
+    <h4>Agri-Food Realted Service Providers</h4>
+    <p>
+        <ul>
+            <li>Agrowfi</li>
+            <li>EastWest Bank</li>
+            <li>Express Trade Capital</li>
+            <li>Valley National Bank</li>
+    </p>
+    </div>
+
+    <div id="Tab6" class="tab-content">
+        <h2>Tax Consultants and Accountants</h2>
+        <h4>Agri-Food Related Service Providers</h4>
+        <p>
+            <ul>
+                <li>Marcum LLP</li>
+                <li>Mazars USA LLP</li>
+              </ul>
+        </p>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-button");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        // Display the first tab by default
+        document.getElementsByClassName('tab-button')[0].click();
+    </script>
+</body>
+</html>
