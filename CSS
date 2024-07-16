@@ -1,0 +1,61 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background: white;
+    color: #800020;
+    font-size: 30px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.tab-button {
+    background-color: #800020;
+    border: none;
+    color: #EBD99b;
+    padding: 14px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+}
+
+.tab-button:hover {
+    background-color: #713544;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.service-provider {
+    border: 3px solid #800020;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #f0e7e9;
+}
+
+.service-provider h4 {
+    margin-top: 0;
+}
+
+.service-provider p {
+    margin: 5px 0;
+}
+
+.service-provider a {
+    color: #bcaa69;
+    text-decoration: none;
+}
+
+.service-provider a:hover {
+    text-decoration: underline;
+}
